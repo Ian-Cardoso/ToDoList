@@ -1,0 +1,39 @@
+
+.todo-grid, .todo-input-grid{
+
+    display: grid;
+    grid-template-columns:  200px 150px 100px;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.delete-btn{
+    background-color: brown;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.add-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 11px 15px;
+    cursor: pointer;
+}
+
+.js-name-input{
+    padding: 8px;
+}
+
+.js-due-date-input{
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+
+
